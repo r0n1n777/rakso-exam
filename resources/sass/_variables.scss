@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-size-base: 0.8rem;
+$line-height-base: 1.3;
+
+$primary: #F68121;
+$secondary: white;
+$light: #fff2e7;
+$dark: black;
+$white: white;
+
+$gradient: linear-gradient(180deg, rgba($white, 0), rgba($white, 0.1));
+
+$nav-tabs-border-color: $white;
+$nav-tabs-link-active-color: $white;
+$nav-tabs-link-active-bg: $primary;
+$nav-tabs-link-active-border-color: $primary;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);

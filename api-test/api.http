@@ -1,0 +1,33 @@
+### TO SHOW ALL RECORDS
+
+GET http://localhost:8000/api/contacts HTTP/1.1
+
+### TO CREATE A NEW RECORD
+
+POST http://localhost:8000/api/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Mr",
+    "fname": "Ero",
+    "lname": "Aguilar",
+    "phone": "09089893982",
+    "company": "Rakso"
+}
+
+### TO UPDATE A RECORD
+
+PUT http://localhost:8000/api/contacts/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Mr",
+    "fname": "Ero",
+    "lname": "Aguilar",
+    "phone": "09089893982",
+    "company": "Rakso"
+}
+
+### TO DELETE A RECORD
+
+DELETE http://localhost:8000/api/contacts/3 HTTP/1.1

@@ -1,0 +1,118 @@
+/* * {
+    box-sizing: border-box !important;
+    background: rgb(0 100 0/ 0.1) !important;
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0.2rem;
+}
+   
+::-webkit-scrollbar-track {
+    background-color: var(--bs-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bs-dark);
+    border-radius: 200px;
+}
+
+.content {
+    border-left: 3px solid var(--bs-primary);
+    border-right: 3px solid var(--bs-primary);
+    min-height: 100vh;
+}
+
+.bi {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.bi-sm {
+    font-size: 0.7em !important;
+}
+
+.bi-lg {
+    font-size: 1.5em !important;
+}
+
+.bi-xl {
+    font-size: 2em !important;
+}
+
+.btn-facebook {
+    background-color: #4267B2;
+    color: white;
+}
+
+.btn-google {
+    background-color: #E89E21;
+    color: white;
+}
+
+.btn-continue {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.btn-back {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+.error {
+    color: var(--bs-danger);
+    font-weight: bold;
+    font-size: small;
+    margin-top: 3px;
+}
+
+.error::before {
+    content: '* ';
+}
+
+.notification {
+    position: relative;
+    display: inline-block;
+}
+
+.notification span {
+    position: absolute;
+    top: -8px;
+    right: -13px;
+    border-radius: 50%;
+    background: var(--bs-danger);
+    color: var(--bs-white);
+    font-weight: bold;
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: 0.9rem;
+}
+
+.featured {
+    height: 25vh;
+}
+
+.featured img {
+    width: 100%;
+    height: 25vh;
+}
+
+.featured div {
+    top: 0;
+}
+
+.featured a {
+    bottom: 0;
+    right: 0;
+}
